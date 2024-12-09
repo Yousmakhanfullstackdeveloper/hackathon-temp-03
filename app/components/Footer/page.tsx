@@ -1,5 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
+<<<<<<< HEAD
+=======
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+>>>>>>> f1eda98763a81237c7ab4b481e3db7e44ec3d0ed
 import { PiPlaceholder } from 'react-icons/pi';
 import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
