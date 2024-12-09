@@ -6,22 +6,20 @@ export default function cart() {
       <div className="max-w-5xl w-full bg-white  p-6">
         {/* Bag Section */}
         <div className="grid grid-cols-3 gap-6">
-          {/* Bag Items */}
           <div className="col-span-2">
-            <h2 className="text-lg font-bold mb-4">Bag</h2>
-            {/* Item 1 */}
+            <h2 className="text-lg font-bold mb-4 ml-4 text-xl">Bag</h2>
+            {/* part 1 */}
             <div className="flex items-center justify-between border-b pb-4 mb-4">
               <Image
                 src="/image/titleframe1st.png"
-                alt="Nike"
+                alt="title"
                 width={150}
                 height={150}
                 className="w-24 h-24 rounded-md border"
               >
               </Image>
               <div className="ml-4 flex-1">
-                <h3 className="font-medium text-gray-800">
-                  Nike Dri-FIT ADV TechKnit Ultra
+                <h3 className="font-medium text-gray-800">Nike Dri-FIT ADV TechKnit Ultra
                 </h3>
                 <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
                 <p className="text-sm text-gray-500">Ashen Slate/Cobalt Bliss</p>
@@ -33,7 +31,7 @@ export default function cart() {
                 </div>
             </div>
 
-            {/* Item 2 */}
+            {/* part 2 */}
             <div className="flex items-center justify-between border-b pb-4 mb-4 pl-16">
               
               <div className="ml-10 flex-1">
@@ -49,7 +47,7 @@ export default function cart() {
             </div>
           </div>
 
-          {/* Summary Section */}
+          {/* Section */}
           <div className="bg-gray-100 rounded-lg p-6 border border-gray-200">
             <h2 className="text-lg font-bold mb-4">Summary</h2>
             <div className="flex justify-between mb-2">
@@ -70,9 +68,9 @@ export default function cart() {
           </div>
         </div>
 
-        {/* Free Delivery Section */}
+        {/* Free Delivery part */}
         <div className="mt-6 text-sm text-gray-500">
-          Free Delivery applies to orders of ₹ 14,000.00 or more.{' '}
+          Free Delivery applies to orders of ₹ 14,000.00 or more.{''}
           <a href="#" className="text-blue-500 hover:underline">
             View details
           </a>

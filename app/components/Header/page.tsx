@@ -6,7 +6,7 @@ import { CiShoppingCart } from "react-icons/ci";
 import Link from 'next/link';
 const Header = () => {
     return (
-        <header>
+        <header className=' md:justify-center'>
             {/* ------------------------------------NAVBAR----------------------------- */}
             <div className='bg-[#F5F5F5] w=[1440px] h-[36px] m-0'>
                 <div className='flex '>
@@ -16,13 +16,15 @@ const Header = () => {
                     <div className='bg-[#FFFFFF] w-[146.86px] h-[26px] mt-[5px] ml-[650px] px-[10px] py-[4px] text-sm'>
                         <h1>skip to main content</h1>
                     </div>
-                    <div className='nav w-auto h-[6px] space-x-2 ml-[200px] text-sm py-[5px]'>
+                    <div className='nav w-auto h-[6px]  ml-[200px] text-sm py-[5px]'>
                         <Link href="/" className="hover:text-gray-800">Find Link Store   | </Link>
                         <Link href="/product" className="hover:text-gray-800">Help   | </Link>
+                        <Link href="/product" className="hover:text-gray-800">Product  | </Link>
                         <Link href="/join-us" className="hover:text-gray-800">Join Us   | </Link>
                         <Link href="/Login" className="hover:text-gray-800">Sign In  |</Link>
-                        <Link href="/cart" className="hover:text-gray-800">Cart  |</Link>
-                        <Link href="/contact" className="hover:text-gray-800">contact-us</Link>
+                        <Link href="/productdetail" className="hover:text-gray-800">Productdetail   | </Link>
+                        <Link href="/cart" className="hover:text-gray-800">Cart  </Link>
+                    
 
                     </div>
                 </div>

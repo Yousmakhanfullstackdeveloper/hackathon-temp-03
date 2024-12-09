@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-export default function Home() {
-    // Product data array for multiple products
+export default function Product() {
+    // Product data array for multiple products using logicccccc
     const products = Array.from({ length: 6 }, (_, index) => ({
         id: index + 1,
         image: `/images/product${index + 1}.png`,

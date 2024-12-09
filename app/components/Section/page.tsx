@@ -1,9 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-const page = () => {
+const section = () => {
   return (
     <div>
      {/* ---------------------------Featured-------------------------------- */}
@@ -99,41 +98,41 @@ const page = () => {
         </div>
       </div>
 
-<div className="w-full h-auto mt-20 wrapper">
+<div className="w-full h-auto mt-20 wrapper ">
     <div className="text-[23px] font-medium ml-[40px] mb-[1px] ">The Essential</div>
   
     
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-[40px]">
       
-      <div className="w-full h-auto bg-purple-400">
+      <div className="w-full h-auto ">
         <Image
           src="/image/1st.png"
           alt="Essential1"
           width={450}
           height={550}
-          className="w-full h-auto"
+          className="w-full"
         />
       </div>
   
       
-      <div className="w-full h-auto bg-purple-400">
+      <div className="w-full h-auto ">
         <Image
           src="/image/2nd.png"
           alt="Essential2"
           width={450}
           height={550}
-          className="w-full h-auto"
+          className="w-full"
         />
       </div>
   
       
-      <div className="w-full h-auto bg-purple-400">
+      <div className="w-full h-auto ">
         <Image
           src="/image/3rd.png"
           alt="Essential3"
           width={450}
           height={550}
-          className="w-full h-auto"
+          className="w-full"
           />
         </div>
       </div>
@@ -179,11 +178,9 @@ const page = () => {
 </div>
 </div>
 </div>
-
-
 </section>
 </div>
   )
 }
 
-export default page
+export default section
