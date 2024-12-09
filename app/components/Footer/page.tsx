@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { PiPlaceholder } from 'react-icons/pi';
 const page = () => {
   return (

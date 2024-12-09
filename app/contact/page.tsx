@@ -5,7 +5,7 @@ import { IoLocation } from "react-icons/io5";
 import { BiSolidLike, BiSolidDislike } from "react-icons/bi";
 import React from "react";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <main className="bg-white flex flex-col items-center w-full">
       <section className="w-full max-w-[1440px] px-4 py-8">
@@ -99,4 +99,4 @@ export const Contact = () => {
   );
 };
 
-
+export default Contact;
