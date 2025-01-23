@@ -6,7 +6,7 @@ const section = () => {
   return (
     <div>
       {/* ---------------------------Featured-------------------------------- */}
-      <div className=" mt-[520px] ml-[120px]">
+      <div className=" mt-[50px] ml-[120px]">
 
         <h1 className="text-[#111111] fonnt-Helvetica Neue py-[5px] mt-[30px] ml-[-5px] font-bold text-2xl">Featured</h1>
       </div>
