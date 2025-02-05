@@ -18,12 +18,11 @@ const Header = () => {
                     </div>
                     <div className='nav w-auto h-[6px]  ml-[200px] text-sm py-[5px]'>
                         <Link href="/" className="hover:text-gray-800">Find Link Store   | </Link>
-                        <Link href="/products" className="hover:text-gray-800">Help   | </Link>
                         <Link href="/products" className="hover:text-gray-800">Product  | </Link>
                         <Link href="/join-us" className="hover:text-gray-800">Join Us   | </Link>
                         <Link href="/Login" className="hover:text-gray-800">Sign In  |</Link>
                         <Link href="/productdetail" className="hover:text-gray-800">Productdetail   | </Link>
-                        <Link href="/cart" className="hover:text-gray-800">Cart  </Link>
+                        <Link href="/carts" className="hover:text-gray-800">Cart  </Link>
                     
 
                     </div>

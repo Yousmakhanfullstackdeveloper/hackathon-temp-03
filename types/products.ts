@@ -17,4 +17,5 @@ export interface Product {
         current : string;
     };
     category : string;
+    inventory : number;
   }

@@ -3,7 +3,8 @@ import { urlFor } from "@/sanity/lib/image";
 import { Product } from "@/types/products";
 import { groq } from "next-sanity";
 import Image from "next/image";
-import AddToCartButton from "@/app/AddToCartButton";  // Import Client Component
+import { Button } from "@/components/ui/button";
+import { CiShoppingCart } from "react-icons/ci";
 
 interface ProductPageProps {
   params: { slug: string };
@@ -55,9 +56,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <h1 className="text-2xl font-sans flex">
             <p className="text-2xl font-semibold">Price = </p> {product.price}$
           </h1>
-
-          {/* Add to Cart Button - Client Component */}
-          <AddToCartButton productName={product.productName} />
+          <Button className="flex items-center justify-center bg-black text-white py-2 px-6 rounded-md hover:bg-gray-500 transition duration-300">
+          <CiShoppingCart className="w-8 h-8 mr-3" />
+          Add to Cart
+        </Button>
         </div>
       </div>
     </div>
