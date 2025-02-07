@@ -123,7 +123,7 @@ const Section = () => {
         </div>
         
         <div className="w-full mt-16 px-4">
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-60">
             <ul className="text-start">
               <span className="font-medium font-bold">Icons</span>
               <li className="font-normal text-[#757575]">Air Force 1</li>
