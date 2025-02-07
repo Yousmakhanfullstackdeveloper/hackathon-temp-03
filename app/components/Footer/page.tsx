@@ -2,12 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import { PiPlaceholder } from 'react-icons/pi';
 import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+
 const Footer = () => {
     return (
         <footer className="bg-[#111111] text-white py-8 px-6 mt-20">
-            {/* --------Footer--------- */}
-            <div className="grid grid-cols-1 md:grid-cols-3 base:grid-cols-2 lg:grid-cols-4 gap-6 border-b border-gray-700 pb-8">
-                {/* partition 1 */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 border-b border-gray-700 pb-8">
                 <div>
                     <h1 className="text-base font-semibold mb-5">FIND A STORE</h1>
                     <ul className="space-y-2 text-sm">
@@ -17,11 +16,9 @@ const Footer = () => {
                         <li><Link href="#" className="hover:underline">Student Discounts</Link></li>
                     </ul>
                 </div>
-
-                {/* Partition 2 */}
                 <div>
                     <h1 className="text-base font-semibold mb-5">GET HELP</h1>
-                    <ul className="space-y-2 text-sm ">
+                    <ul className="space-y-2 text-sm">
                         <li><Link href="#" className="hover:underline">Order Status</Link></li>
                         <li><Link href="#" className="hover:underline">Delivery</Link></li>
                         <li><Link href="#" className="hover:underline">Returns</Link></li>
@@ -30,8 +27,6 @@ const Footer = () => {
                         <li><Link href="#" className="hover:underline">Contact Us on All Other Inquiries</Link></li>
                     </ul>
                 </div>
-
-                {/* partition 3 */}
                 <div>
                     <h1 className="text-base font-semibold mb-5">ABOUT NIKE</h1>
                     <ul className="space-y-2 text-sm">
@@ -41,9 +36,7 @@ const Footer = () => {
                         <li><Link href="#" className="hover:underline">Sustainability</Link></li>
                     </ul>
                 </div>
-
-                {/* ---------------------------ICONS------------------------------ */}
-                <div className="flex justify-start md:justify-end items-start gap-4">
+                <div className="flex justify-start sm:justify-center md:justify-end items-start gap-4">
                     <FaTwitter className="text-lg cursor-pointer hover:text-gray-400" />
                     <FaFacebook className="text-lg cursor-pointer hover:text-gray-400" />
                     <FaYoutube className="text-lg cursor-pointer hover:text-gray-400" />
@@ -51,17 +44,13 @@ const Footer = () => {
                     <FaLinkedin className="text-lg cursor-pointer hover:text-gray-400" />
                 </div>
             </div>
-
-            <div className="flex flex-wrap mt-8 justify-between items-center text-xs text-gray-400">
-
+            <div className="flex flex-col md:flex-row mt-8 justify-between items-center text-xs text-gray-400">
                 <div className="flex mb-4 md:mb-0 gap-2">
-                    <PiPlaceholder className='flex flex-block text-[#111111] text-sm' />
+                    <PiPlaceholder className='text-[#111111] text-sm' />
                     <p>India</p>
                     <p>© 2023 Nike, Inc. All Rights Reserved</p>
                 </div>
-
-
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 text-center">
                     <Link href="#" className="hover:underline">Guides</Link>
                     <Link href="#" className="hover:underline">Terms of Sale</Link>
                     <Link href="#" className="hover:underline">Terms of Use</Link>
@@ -72,4 +61,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
