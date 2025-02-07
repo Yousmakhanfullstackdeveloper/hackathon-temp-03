@@ -2,7 +2,7 @@
 import { addToCart } from "@/app/actions/actions";
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
-import { allProducts, four } from "@/sanity/lib/queries";
+import { allProducts } from "@/sanity/lib/queries";
 import { Product } from "@/types/products";
 import Image from "next/image";
 import Link from "next/link";

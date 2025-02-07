@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import { CiShoppingCart } from "react-icons/ci";
 import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
-import Shoes from "../components/Shoes/page";
 
 
 const ProductDetail = () => {
